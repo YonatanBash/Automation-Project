@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="tests.ExternalLinksValidationTest">
+        <methods>
+          <include name="tc01_visitFacebook"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.ExternalLinksValidationTest -->
+      <class name="tests.VisitPagesTest">
+        <methods>
+          <include name="tc02_goToMenPage"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.VisitPagesTest -->
+      <class name="tests.AddingItemsTest">
+        <methods>
+          <include name="tc03_purchasingShirtFromSearch"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.AddingItemsTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

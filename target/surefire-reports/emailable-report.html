@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">11</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">198,352</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">tests.AddingItemsTest</td><td><a href="#m0">tc03_purchasingShirtFromSearch</a></td><td rowspan="1">1682267787605</td><td rowspan="1">18438</td></tr><tr class="failedodd"><td rowspan="1">tests.ExternalLinksValidationTest</td><td><a href="#m1">tc01_visitFacebook</a></td><td rowspan="1">1682267906554</td><td rowspan="1">8029</td></tr><tr class="failedeven"><td rowspan="1">tests.VisitPagesTest</td><td><a href="#m2">tc02_goToMenPage</a></td><td rowspan="1">1682267735415</td><td rowspan="1">4058</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="8">tests.AddingItemsTest</td><td><a href="#m3">tc01_addingWomenAllInOne</a></td><td rowspan="1">1682267754504</td><td rowspan="1">12305</td></tr><tr class="passedeven"><td><a href="#m4">tc02_addingWomenLeggings</a></td><td rowspan="1">1682267766811</td><td rowspan="1">20792</td></tr><tr class="passedeven"><td><a href="#m5">tc04_purchasingPantsFromSearch</a></td><td rowspan="1">1682267806044</td><td rowspan="1">16753</td></tr><tr class="passedeven"><td><a href="#m6">tc05_addingMenShorts</a></td><td rowspan="1">1682267822798</td><td rowspan="1">21602</td></tr><tr class="passedeven"><td><a href="#m7">tc06_addingMenShirt</a></td><td rowspan="1">1682267844401</td><td rowspan="1">10216</td></tr><tr class="passedeven"><td><a href="#m8">tc07_addingAccessoryItem</a></td><td rowspan="1">1682267854619</td><td rowspan="1">19227</td></tr><tr class="passedeven"><td><a href="#m9">tc08_addingHoodieToWishlist</a></td><td rowspan="1">1682267873847</td><td rowspan="1">11221</td></tr><tr class="passedeven"><td><a href="#m10">tc09_addingShakerToWishlist</a></td><td rowspan="1">1682267885070</td><td rowspan="1">10588</td></tr><tr class="passedodd"><td rowspan="3">tests.VisitPagesTest</td><td><a href="#m11">tc01_goToWomenPage</a></td><td rowspan="1">1682267728503</td><td rowspan="1">6832</td></tr><tr class="passedodd"><td><a href="#m12">tc03_goToAccessoriesPage</a></td><td rowspan="1">1682267739481</td><td rowspan="1">3781</td></tr><tr class="passedodd"><td><a href="#m13">tc04_enterFAQ</a></td><td rowspan="1">1682267743263</td><td rowspan="1">2211</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">tests.AddingItemsTest#tc03_purchasingShirtFromSearch</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected:&lt;YOUR BAG&gt; but was:&lt;YOUR BA&gt;
+	at tests.AddingItemsTest.tc03_purchasingShirtFromSearch(AddingItemsTest.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">tests.ExternalLinksValidationTest#tc01_visitFacebook</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1401, 1149)
+  (Session info: chrome=112.0.5615.137)
+Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.5.1&apos;, java.version: &apos;19.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9866a017ac0eba1a138918d102a6ec66, clickElement {id=104a4266-2b79-4eab-bcf0-1614f6b71ec2}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.137, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: /var/folders/hj/k2l3619d5_d...}, goog:chromeOptions: {debuggerAddress: localhost:49294}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49294/devtoo..., se:cdpVersion: 112.0.5615.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (9866a017ac0eba1a138918d102a6ec66)] -&gt; css selector: [aria-label=&apos;facebook&apos;]]
+Session ID: 9866a017ac0eba1a138918d102a6ec66
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
+	at pageObjects.BasePage.click(BasePage.java:40)
+	at pageObjects.CommonPage.visitFacebook(CommonPage.java:192)
+	at tests.ExternalLinksValidationTest.tc01_visitFacebook(ExternalLinksValidationTest.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">tests.VisitPagesTest#tc02_goToMenPage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected:&lt;RUNNING&gt; but was:&lt;RUNNG&gt;
+	at tests.VisitPagesTest.tc02_goToMenPage(VisitPagesTest.java:48)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">tests.AddingItemsTest#tc01_addingWomenAllInOne</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">tests.AddingItemsTest#tc02_addingWomenLeggings</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">tests.AddingItemsTest#tc04_purchasingPantsFromSearch</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">tests.AddingItemsTest#tc05_addingMenShorts</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">tests.AddingItemsTest#tc06_addingMenShirt</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">tests.AddingItemsTest#tc07_addingAccessoryItem</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">tests.AddingItemsTest#tc08_addingHoodieToWishlist</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">tests.AddingItemsTest#tc09_addingShakerToWishlist</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">tests.VisitPagesTest#tc01_goToWomenPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">tests.VisitPagesTest#tc03_goToAccessoriesPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">tests.VisitPagesTest#tc04_enterFAQ</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
